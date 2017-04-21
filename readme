@@ -1,6 +1,7 @@
 Redis 代码分布式锁的管理和使用
 
 1.锁定
+
 REDIS_KEY_TYPE_ONE:对应锁的业务前缀
 //获取锁，根据key值进行锁定
 public boolean lockRedisKey(String keyTarget) {
